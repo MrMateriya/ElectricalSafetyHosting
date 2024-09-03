@@ -24,7 +24,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_kuzbass-fuel-company']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/VinogradovskySection.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/VinogradovskySection.png'
                                 alt='VinogradovskySection.png'
                                 width={1200}
                                 height={834}
@@ -79,7 +79,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_npc-polus']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/VinogradovskySection.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/VinogradovskySection.png'
                                 alt='VinogradovskySection.png'
                                 width={1200}
                                 height={834}
@@ -92,7 +92,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_tomskneftekhim']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/Tomskneftekhim.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Tomskneftekhim.png'
                                 alt='Tomskneftekhim.png'
                                 width={680}
                                 height={511}
@@ -146,7 +146,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_tomsk-generation']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/TomskGeneration.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskGeneration.png'
                                 alt='TomskGeneration.png'
                                 width={570}
                                 height={355}
@@ -195,7 +195,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_tomsk-state-university']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/TomskStateUniversity.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskStateUniversity.png'
                                 alt='TomskStateUniversity.png'
                                 width={1024}
                                 height={768}
@@ -208,7 +208,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_rosneft']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/Rosneft.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rosneft.png'
                                 alt='Rosneft.png'
                                 width={1024}
                                 height={768}
@@ -272,7 +272,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_tomsk-polytechnic-university']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/TomskPolytechnicUniversity.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskPolytechnicUniversity.png'
                                 alt='TomskPolytechnicUniversity.png'
                                 width={1024}
                                 height={768}
@@ -285,7 +285,7 @@ function ObjectsPage() {
                             styles['objects__photo-wrapper_rusal']].join(' ')}>
                             <Image
                                 className={styles['objects__photo']}
-                                src='/images/photos/Rusal.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rusal.png'
                                 alt='Rusal.png'
                                 width={640}
                                 height={425}

@@ -25,13 +25,13 @@
     display: none;
 }
 .description__photo-wrapper_barbed-wire {
-    background-image: url("/images/photos/BarbedWire.jfif");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/BarbedWire.jfif");
 }
 .description__photo-wrapper_electric-shield {
-    background-image: url("/images/photos/ElectricShield.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/ElectricShield.png");
 }
 .description__photo-wrapper_valve {
-    background-image: url("/images/photos/Valve.jfif");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Valve.jfif");
 }
 .description__photo {
     opacity: 0;
@@ -73,7 +73,7 @@
     content: ' ';
 
     display: flex;
-    background-image: url("/images/icons/YellowArrowItem.svg");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/icons/YellowArrowItem.svg");
     background-size: cover;
     background-position: center;
     min-width: 16px;

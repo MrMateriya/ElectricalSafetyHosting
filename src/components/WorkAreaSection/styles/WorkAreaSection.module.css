@@ -39,14 +39,14 @@
     background-position: center;
 }
 .areas__image-container_valves {
-    background-image: url("/images/photos/Valve.jfif");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Valve.jfif");
     filter: brightness(70%);
 }
 .areas__image-container_barbed-wire {
-    background-image: url("/images/photos/BarbedWire.jfif");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/BarbedWire.jfif");
 }
 .areas__image-container_electric-shield {
-    background-image: url("/images/photos/ElectricShield.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/ElectricShield.png");
     filter: brightness(65%);
 }
 .areas__description {

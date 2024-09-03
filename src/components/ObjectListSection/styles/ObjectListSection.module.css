@@ -41,13 +41,13 @@
     background-position: center;
 }
 .objects__image-vinogradovsky-section {
-    background-image: url("/images/photos/VinogradovskySection.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/VinogradovskySection.png");
 }
 .objects__image-npc-polus {
-    background-image: url("/images/photos/NPCPolus.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/NPCPolus.png");
 }
 .objects__image-tomskneftekhim {
-    background-image: url("/images/photos/Tomskneftekhim.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Tomskneftekhim.png");
 }
 .objects__title {
     margin-bottom: 8px;

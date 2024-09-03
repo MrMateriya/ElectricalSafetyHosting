@@ -83,7 +83,7 @@ const InputSelector = forwardRef(function InputSelector({
                     }),
                     indicatorsContainer: (baseStyles, state) => ({
                         ...baseStyles,
-                        backgroundImage: 'url("/images/icons/ArrowDownWhite.svg")',
+                        backgroundImage: 'url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/icons/ArrowDownWhite.svg")',
                         height: 24,
                         width: 24,
                     }),

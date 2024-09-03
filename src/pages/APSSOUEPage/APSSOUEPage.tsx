@@ -70,7 +70,7 @@ function APSSOUEPage() {
     const objects : ImplementedObject[] = [
         {
             alt: 'TomskGeneration.png',
-            src: '/images/photos/TomskGeneration.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskGeneration.png',
             title: 'АО «Томская генерация»',
             height: 355,
             width: 570,
@@ -95,7 +95,7 @@ function APSSOUEPage() {
         },
         {
             alt: 'Rosneft.png',
-            src: '/images/photos/Rosneft.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rosneft.png',
             title: <>АО «Томскнефтепро<br className={styles['separator-swiper']}/>дукт» ВНК</>,
             height: 768,
             width: 1024,
@@ -117,7 +117,7 @@ function APSSOUEPage() {
         },
         {
             alt: 'TomskPolytechnicUniversity.png',
-            src: '/images/photos/TomskPolytechnicUniversity.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskPolytechnicUniversity.png',
             title: 'Томский политехнический университет',
             height: 900,
             width: 657,
@@ -132,7 +132,7 @@ function APSSOUEPage() {
         },
         {
             alt: 'TomskStateUniversity.png',
-            src: '/images/photos/TomskStateUniversity.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskStateUniversity.png',
             title: 'Томский государственный университет',
             height: 834,
             width: 1200,
@@ -218,7 +218,7 @@ function APSSOUEPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={cards}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={styles['advantages__card-list']}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -228,7 +228,7 @@ function APSSOUEPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[0], cards[1], cards[2]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={[styles['advantages__card-list'], styles['advantages__card-list_middle']].join(' ')}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -238,7 +238,7 @@ function APSSOUEPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[3], cards[4]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                     </div>
                 </div>
             </section>

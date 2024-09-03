@@ -22,21 +22,21 @@ function WorkAreaDescription({
         case "BarbedWire":
             imageOptions.width = 2048;
             imageOptions.height = 1356;
-            imageOptions.src = '/images/photos/BarbedWire.jfif';
+            imageOptions.src = 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/BarbedWire.jfif';
             imageOptions.alt = 'BarbedWire.jfif';
             imageOptions.classNamePrefix = 'barbed-wire'
             break;
         case "ElectricShield":
             imageOptions.width = 776;
             imageOptions.height = 1090;
-            imageOptions.src = '/images/photos/ElectricShield.png';
+            imageOptions.src = 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/ElectricShield.png';
             imageOptions.alt = 'ElectricShield.png';
             imageOptions.classNamePrefix = 'electric-shield'
             break;
         case "Valve":
             imageOptions.width = 3840;
             imageOptions.height = 2560;
-            imageOptions.src = '/images/photos/Valve.jfif';
+            imageOptions.src = 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Valve.jfif';
             imageOptions.alt = 'Valve.jfif';
             imageOptions.classNamePrefix = 'valve'
             break;

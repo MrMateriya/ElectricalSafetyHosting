@@ -155,7 +155,7 @@ function PowerSupplyPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={cards}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={styles['advantages__card-list']}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -165,7 +165,7 @@ function PowerSupplyPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[0], cards[1], cards[2]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={[styles['advantages__card-list'], styles['advantages__card-list_middle']].join(' ')}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -175,7 +175,7 @@ function PowerSupplyPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[3], cards[4]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                     </div>
                 </div>
             </section>
@@ -191,7 +191,7 @@ function PowerSupplyPage() {
                             <Image
                                 className={styles['objects-list__photo']}
                                 alt='Tomskneftekhim.png'
-                                src='/images/photos/Tomskneftekhim.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Tomskneftekhim.png'
                                 width={680}
                                 height={511}
                             />
@@ -223,7 +223,7 @@ function PowerSupplyPage() {
                             <Image
                                 className={styles['objects-list__photo']}
                                 alt='Rusal.png'
-                                src='/images/photos/Rusal.png'
+                                src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rusal.png'
                                 width={640}
                                 height={425}
                             />

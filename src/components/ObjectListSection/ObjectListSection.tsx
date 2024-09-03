@@ -8,7 +8,7 @@ function ObjectListSection({className, ...props}: ObjectListSectionProps) {
         {
             id: 0,
             classNameImage: styles['objects__image-vinogradovsky-section'],
-            src: '/images/photos/VinogradovskySection.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/VinogradovskySection.png',
             alt: 'VinogradovskySection.png',
             width: 1200,
             height: 834,
@@ -20,7 +20,7 @@ function ObjectListSection({className, ...props}: ObjectListSectionProps) {
         {
             id: 1,
             classNameImage: styles['objects__image-npc-polus'],
-            src: '/images/photos/NPCPolus.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/NPCPolus.png',
             alt: 'NPCPolus.png',
             width: 1024,
             height: 768,
@@ -31,7 +31,7 @@ function ObjectListSection({className, ...props}: ObjectListSectionProps) {
         {
             id: 2,
             classNameImage: styles['objects__image-tomskneftekhim'],
-            src: '/images/photos/Tomskneftekhim.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Tomskneftekhim.png',
             alt: 'VinogradovskySection.png',
             width: 680,
             height: 511,

@@ -130,7 +130,7 @@ function AboutUsSection({className, ...props}: AboutUsSectionProps) {
                     <div className={styles['section__electrician-photo-wrapper']}>
                         <Image
                             className={styles['section__electrician-photo']}
-                            src='/images/photos/Electrician.png'
+                            src='https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Electrician.png'
                             alt='Electrician.png'
                             width={2070}
                             height={1380}

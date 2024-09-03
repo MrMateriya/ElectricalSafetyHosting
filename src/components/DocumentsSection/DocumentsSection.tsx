@@ -76,7 +76,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                         <Image
                             draggable={false}
                             className={styles['modal-swiper__image']}
-                            src={'/images/photos/documents/LicenseMES.jfif'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/LicenseMES.jfif'}
                             alt={'LicenseMES.jfif'}
                             width={1240}
                             height={1754}
@@ -86,7 +86,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                         <Image
                             draggable={false}
                             className={styles['modal-swiper__image']}
-                            src={'/images/photos/documents/GOSTRISO45001-2020.jfif'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/GOSTRISO45001-2020.jfif'}
                             alt={'GOSTRISO45001-2020.jfif'}
                             width={1205}
                             height={1718}
@@ -96,7 +96,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                         <Image
                             draggable={false}
                             className={styles['modal-swiper__image']}
-                            src={'/images/photos/documents/GOSTISO14001-2016.jfif'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/GOSTISO14001-2016.jfif'}
                             alt={'GOSTISO14001-2016.jfif'}
                             width={1205}
                             height={1718}
@@ -106,7 +106,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                         <Image
                             draggable={false}
                             className={styles['modal-swiper__image']}
-                            src={'/images/photos/documents/SROProjectStatement.jfif'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/SROProjectStatement.jfif'}
                             alt={'SROProjectStatement.jfif'}
                             width={1241}
                             height={1754}
@@ -133,7 +133,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                                 onKeyDown={handleKeyDownShowPopap}
                                 onClick={handleClickShowPopap}
                                 className={styles['swiper__image']}
-                                src={'/images/photos/documents/LicenseMES.jfif'}
+                                src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/LicenseMES.jfif'}
                                 alt={'LicenseMES.jfif'}
                                 width={1240}
                                 height={1754}
@@ -147,7 +147,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                                 onKeyDown={handleKeyDownShowPopap}
                                 onClick={handleClickShowPopap}
                                 className={styles['swiper__image']}
-                                src={'/images/photos/documents/GOSTRISO45001-2020.jfif'}
+                                src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/GOSTRISO45001-2020.jfif'}
                                 alt={'GOSTRISO45001-2020.jfif'}
                                 width={1205}
                                 height={1718}
@@ -161,7 +161,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                                 onKeyDown={handleKeyDownShowPopap}
                                 onClick={handleClickShowPopap}
                                 className={styles['swiper__image']}
-                                src={'/images/photos/documents/GOSTISO14001-2016.jfif'}
+                                src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/GOSTISO14001-2016.jfif'}
                                 alt={'GOSTISO14001-2016.jfif'}
                                 width={1205}
                                 height={1718}
@@ -175,7 +175,7 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                                 onKeyDown={handleKeyDownShowPopap}
                                 onClick={handleClickShowPopap}
                                 className={styles['swiper__image']}
-                                src={'/images/photos/documents/SROProjectStatement.jfif'}
+                                src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/SROProjectStatement.jfif'}
                                 alt={'SROProjectStatement.jfif'}
                                 width={1241}
                                 height={1754}

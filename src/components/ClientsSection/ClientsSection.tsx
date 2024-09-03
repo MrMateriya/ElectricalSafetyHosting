@@ -13,7 +13,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/Sibur.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Sibur.png'}
                             alt='Sibur.png'
                             width={2560}
                             height={856}
@@ -23,7 +23,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/VostokGazprom.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/VostokGazprom.png'}
                             alt='VostokGazprom.png'
                             width={322}
                             height={66}
@@ -33,7 +33,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/Rosneft.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Rosneft.png'}
                             alt='Rosneft.png'
                             width={512}
                             height={263}
@@ -43,7 +43,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/InterRAOUES.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/InterRAOUES.png'}
                             alt='InterRAOUES.png'
                             width={500}
                             height={150}
@@ -53,7 +53,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/TomskPolytechnicUniversity.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskPolytechnicUniversity.png'}
                             alt='TomskPolytechnicUniversity.png'
                             width={1448}
                             height={314}
@@ -65,7 +65,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/KuzbassFuelCompany.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/KuzbassFuelCompany.png'}
                             alt='KuzbassFuelCompany.png'
                             width={920}
                             height={320}
@@ -75,7 +75,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/TomskStateUniversity.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskStateUniversity.png'}
                             alt='TomskStateUniversity.png'
                             width={1024}
                             height={333}
@@ -85,7 +85,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/GazpromTransgazTomsk.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/GazpromTransgazTomsk.png'}
                             alt='GazpromTransgazTomsk.png'
                             width={1920}
                             height={888}
@@ -95,7 +95,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/Sibagro.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Sibagro.png'}
                             alt='Sibagro.png'
                             width={1200}
                             height={630}
@@ -107,7 +107,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/Sibur.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Sibur.png'}
                             alt='Sibur.png'
                             width={2560}
                             height={856}
@@ -117,7 +117,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/VostokGazprom.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/VostokGazprom.png'}
                             alt='VostokGazprom.png'
                             width={322}
                             height={66}
@@ -127,7 +127,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/Rosneft.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Rosneft.png'}
                             alt='Rosneft.png'
                             width={512}
                             height={263}
@@ -137,7 +137,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/InterRAOUES.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/InterRAOUES.png'}
                             alt='InterRAOUES.png'
                             width={500}
                             height={150}
@@ -147,7 +147,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/TomskPolytechnicUniversity.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskPolytechnicUniversity.png'}
                             alt='TomskPolytechnicUniversity.png'
                             width={1448}
                             height={314}
@@ -158,7 +158,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/KuzbassFuelCompany.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/KuzbassFuelCompany.png'}
                             alt='KuzbassFuelCompany.png'
                             width={920}
                             height={320}
@@ -169,7 +169,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/TomskStateUniversity.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskStateUniversity.png'}
                             alt='TomskStateUniversity.png'
                             width={1024}
                             height={333}
@@ -180,7 +180,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/GazpromTransgazTomsk.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/GazpromTransgazTomsk.png'}
                             alt='GazpromTransgazTomsk.png'
                             width={1920}
                             height={888}
@@ -191,7 +191,7 @@ function ClientsSection({className, ...props} : ClientsSectionProps) {
                     <li className={styles['logos__item']}>
                         <Image
                             className={styles['logos__image']}
-                            src={'/images/photos/clientLogo/Sibagro.png'}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Sibagro.png'}
                             alt='Sibagro.png'
                             width={1200}
                             height={630}

@@ -1,6 +1,6 @@
 .section {
     padding: 98px 0 254px 0;
-    background:  url('/images/photos/CameraLensBackground.jfif') no-repeat center /cover, #000000cc;
+    background:  url('https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/CameraLensBackground.jfif') no-repeat center /cover, #000000cc;
     background-blend-mode: multiply;
     position: relative;
     z-index: -1;

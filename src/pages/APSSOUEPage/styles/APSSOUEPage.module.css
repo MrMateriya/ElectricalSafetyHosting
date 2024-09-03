@@ -56,7 +56,7 @@
     list-style-type: none;
 }
 .list__item:before {
-    content: url("/images/icons/YellowArrowItem.svg");
+    content: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/icons/YellowArrowItem.svg");
     width: 16px;
     height: 16px;
     display: flex;
@@ -78,7 +78,7 @@
     min-width: 480px;
     min-height: 574px;
 
-    background-image: url("/images/photos/Valve.jfif");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Valve.jfif");
     background-position: -190px 0;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,19 +230,19 @@
     background-position: center;
 }
 .swiper__image-wrapper_tomsk-generation {
-    background-image: url("/images/photos/TomskGeneration.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskGeneration.png");
 }
 .swiper__image-wrapper_rosneft {
-    background-image: url("/images/photos/Rosneft.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rosneft.png");
 }
 .swiper__image-wrapper_rusal {
-    background-image: url("/images/photos/Rusal.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rusal.png");
 }
 .swiper__image-wrapper_state-university {
-    background-image: url("/images/photos/TomskStateUniversity.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskStateUniversity.png");
 }
 .swiper__image-wrapper_tomsk-polytechnic-university {
-    background-image: url("/images/photos/TomskPolytechnicUniversity.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskPolytechnicUniversity.png");
 }
 .APSSOUEPage__submit-request {
     padding: 70px 0 108px 0;

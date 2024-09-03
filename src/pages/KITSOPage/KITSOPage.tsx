@@ -71,7 +71,7 @@ function KITSOPage() {
     const objects: ImplementedObject[] = [
         {
             alt: 'TomskGeneration.png',
-            src: '/images/photos/TomskGeneration.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskGeneration.png',
             title: 'АО «Томская генерация»',
             height: 355,
             width: 570,
@@ -87,7 +87,7 @@ function KITSOPage() {
         },
         {
             alt: 'Rosneft.png',
-            src: '/images/photos/Rosneft.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rosneft.png',
             title: <>АО «Томскнефтепро<br className={styles['separator-swiper']}/>дукт» ВНК</>,
             height: 768,
             width: 1024,
@@ -101,7 +101,7 @@ function KITSOPage() {
         },
         {
             alt: 'Rusal.png',
-            src: '/images/photos/Rusal.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rusal.png',
             title: 'АО «РУСАЛ Красноярский Алюминиевый Завод',
             height: 425,
             width: 640,
@@ -116,7 +116,7 @@ function KITSOPage() {
         },
         {
             alt: 'VinogradovskySection.png',
-            src: '/images/photos/VinogradovskySection.png',
+            src: 'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/VinogradovskySection.png',
             title: 'Разрез Виноградовский (филиал АО «КТК»)',
             height: 834,
             width: 1200,
@@ -216,7 +216,7 @@ function KITSOPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={cards}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={styles['advantages__card-list']}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -226,7 +226,7 @@ function KITSOPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[0], cards[1], cards[2]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={[styles['advantages__card-list'], styles['advantages__card-list_middle']].join(' ')}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -236,7 +236,7 @@ function KITSOPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[3], cards[4]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                         <CardList
                             className={[styles['advantages__card-list'], styles['advantages__card-list_down']].join(' ')}
                             classNameDescription={styles['advantages__card-list-description']}
@@ -246,7 +246,7 @@ function KITSOPage() {
                             classNameTitle={styles['advantages__card-list-title']}
                             classNameListWrapper={styles['advantages__card-list-wrapper']}
                             cards={[cards[5], cards[6]]}
-                            spriteSheetHref='/images/iconAtlases/size_40.svg'/>
+                            spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_40.svg'/>
                     </div>
                 </div>
             </section>

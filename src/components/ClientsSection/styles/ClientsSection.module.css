@@ -68,33 +68,33 @@
     background-position: center;
 }
 .logos__sibur {
-    background-image: url("/images/photos/clientLogo/Sibur.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Sibur.png");
 }
 .logos__vostok-gazprom {
-    background-image: url("/images/photos/clientLogo/VostokGazprom.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/VostokGazprom.png");
 }
 .logos__rosneft {
-    background-image: url("/images/photos/clientLogo/Rosneft.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Rosneft.png");
 }
 .logos__interRAOUES {
-    background-image: url("/images/photos/clientLogo/InterRAOUES.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/InterRAOUES.png");
 }
 .logos__tomsk-polytechnic-university {
-    background-image: url("/images/photos/clientLogo/TomskPolytechnicUniversity.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskPolytechnicUniversity.png");
 }
 .logos__kuzbass-fuel-company {
-    background-image: url("/images/photos/clientLogo/KuzbassFuelCompany.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/KuzbassFuelCompany.png");
 }
 .logos__tomsk-state-university {
     background-size: 200%;
     background-position: center;
-    background-image: url("/images/photos/clientLogo/TomskStateUniversity.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskStateUniversity.png");
 }
 .logos__gazprom-transgaz-tomsk {
-    background-image: url("/images/photos/clientLogo/GazpromTransgazTomsk.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/GazpromTransgazTomsk.png");
 }
 .logos__sibagro {
-    background-image: url("/images/photos/clientLogo/Sibagro.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/Sibagro.png");
 }
 
 @media (max-width: 1250px) {
@@ -120,7 +120,7 @@
     .logos__tomsk-state-university {
         background-size: 150%;
         background-position: center;
-        background-image: url("/images/photos/clientLogo/TomskStateUniversity.png");
+        background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/clientLogo/TomskStateUniversity.png");
     }
 }
 @media (max-width: 968px) {

@@ -68,7 +68,7 @@ function WhyUsSection({className, ...props} : WhyUsSectionProps) {
                       classNameIconWrapper={styles['card-list__icon-wrapper']}
                       classNameItem={styles['card-list__item']}
                       classNameListWrapper={styles['card-list__list-wrapper']}
-                      spriteSheetHref='/images/iconAtlases/size_80.svg'
+                      spriteSheetHref='https://mrmateriya.github.io/ElectricalSafetyHosting/images/iconAtlases/size_80.svg'
                       cards={cards}/>
         </section>
     );

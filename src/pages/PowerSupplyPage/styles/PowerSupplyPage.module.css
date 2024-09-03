@@ -114,19 +114,19 @@
     padding-bottom: 120px;
 }
 .swiper__image-wrapper_tomsk-generation {
-    background-image: url("/images/photos/TomskGeneration.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/TomskGeneration.png");
     background-position: 0 -10px;
 }
 .swiper__image-wrapper_rosneft {
-    background-image: url("/images/photos/Rosneft.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rosneft.png");
     background-position: 0 -35px;
 }
 .swiper__image-wrapper_rusal {
-    background-image: url("/images/photos/Rusal.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rusal.png");
     background-position: 0 -18px;
 }
 .swiper__image-wrapper_vinogradovsky-section {
-    background-image: url("/images/photos/VinogradovskySection.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/VinogradovskySection.png");
     background-position: 0 -22px;
 }
 .PowerSupplyPage__implemented-objects {
@@ -172,10 +172,10 @@
     bottom: 0;
 }
 .objects-list__photo_rusal {
-    background-image: url("/images/photos/Rusal.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Rusal.png");
 }
 .objects-list__photo_tomskneftekhim {
-    background-image: url("/images/photos/Tomskneftekhim.png");
+    background-image: url("https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/Tomskneftekhim.png");
 }
 .objects-list__title {
     margin-bottom: 8px;

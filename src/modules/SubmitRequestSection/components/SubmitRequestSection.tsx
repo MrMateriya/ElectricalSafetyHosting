@@ -523,7 +523,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
 
     async function handleSubmitCallOrder(data) {
         try {
-            await fetch('/api/orderCall', {
+            await fetch('https://mrmateriya.github.io/ElectricalSafetyHosting/api/orderCall', {
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
@@ -557,7 +557,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
             formData.append('profession', data.profession.value)
             formData.append('file', data.file[0])
 
-            await fetch('/api/vacancyRespond', {
+            await fetch('https://mrmateriya.github.io/ElectricalSafetyHosting/api/vacancyRespond', {
                 method: "POST",
                 body: formData,
             })
