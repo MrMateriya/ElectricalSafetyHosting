@@ -142,7 +142,7 @@ function KITSOPage() {
     ]
     const paths = [
         {
-            href: '/',
+            href: 'https://mrmateriya.github.io/ElectricalSafetyHosting',
             title: 'Главная',
         }
     ]

@@ -5,7 +5,7 @@ import Image from "next/image";
 function ObjectsPage() {
     const paths = [
         {
-            href: '/',
+            href: 'https://mrmateriya.github.io/ElectricalSafetyHosting',
             title: 'Главная',
         }
     ]
