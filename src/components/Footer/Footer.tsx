@@ -10,7 +10,7 @@ function Footer({className, ...props}: FooterProps) {
             id: 0,
             type: 'anchor',
             title: 'Направления',
-            page: 'https://mrmateriya.github.io/ElectricalSafetyHosting/',
+            page: './',
             href: '#work-area',
         },
         {
