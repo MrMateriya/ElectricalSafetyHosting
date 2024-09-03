@@ -1,0 +1,133 @@
+.header {
+    background-color: var(--light-gray);
+    position: relative;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.header__logo {
+
+}
+.header__link-list {
+
+}
+.link-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    list-style: none;
+    gap: 32px;
+}
+.link-list__item {
+
+}
+.link-list__link {
+    text-decoration: none;
+    white-space: nowrap;
+    color: var(--black);
+}
+.link-list__link:focus, .link-list__link:active {
+    outline: none;
+    color: var(--olive-light)
+}
+.burger-button {
+    border: none;
+    background: none;
+    outline: none;
+    display: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.burger-button__svg {
+
+}
+.header__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--black);
+    width: 360px;
+    height: 100vh;
+    padding: 14px 20px 106px 20px;
+    filter: drop-shadow(10px 10px 10px var(--olive));
+}
+.menu_closed {
+    display: none;
+}
+.menu__cross {
+    align-self: flex-end;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.menu__link-list {
+
+}
+.link-list_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 32px;
+}
+.link-list_menu__item {
+
+}
+.link-list_menu__link {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+}
+
+@media (hover: hover) {
+    .link-list__link:hover {
+        color: var(--olive-light)
+    }
+    .link-list_menu__link:hover {
+        color: var(--light-gray);
+    }
+}
+@media (max-width: 1200px) {
+    .link-list {
+        gap: 22px;
+    }
+}
+@media (max-width: 1150px) {
+    .link-list {
+        display: none;
+    }
+    .burger-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 968px) {
+    .header__wrapper {
+        align-items: flex-end;
+        padding: 20px 24px 20px 0;
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .header__wrapper {
+        padding: 20px 0;
+    }
+}
+@media (max-width: 600px) {
+    .menu {
+        width: 100%;
+    }
+}

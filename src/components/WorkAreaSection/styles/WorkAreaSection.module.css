@@ -1,0 +1,132 @@
+.section {
+    background-color: var(--black);
+}
+.section__wrapper {
+    
+}
+.section__title {
+    color: var(--yellow);
+    margin-bottom: 60px;
+    text-align: center;
+}
+.areas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.areas__item {
+    display: flex;
+    flex-direction: column;
+}
+.areas__image {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transform: scale(0);
+    right: 0;
+    bottom: 0;
+}
+.areas__image-container {
+    margin-bottom: 20px;
+    min-height: 260px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    filter: brightness(80%);
+    position: relative;
+    background-position: center;
+}
+.areas__image-container_valves {
+    background-image: url("/images/photos/Valve.jfif");
+    filter: brightness(70%);
+}
+.areas__image-container_barbed-wire {
+    background-image: url("/images/photos/BarbedWire.jfif");
+}
+.areas__image-container_electric-shield {
+    background-image: url("/images/photos/ElectricShield.png");
+    filter: brightness(65%);
+}
+.areas__description {
+    display: flex;
+    flex-direction: column;
+}
+.areas__title {
+    margin-bottom: 12px;
+    color: var(--white);
+}
+.link__arrow {
+    margin-top: 12px;
+}
+
+@media (max-width: 1250px) {
+    .section__title {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 968px) {
+    .areas__title {
+        margin-bottom: 4px;
+    }
+    .areas__image-container {
+        margin-bottom: 8px;
+        height: 260px;
+    }
+    .areas__image-container_electric-shield {
+        background-size: 103%;
+    }
+}
+@media (max-width: 768px) {
+    .areas__image-container_electric-shield {
+        background-size: 133%;
+    }
+}
+@media (max-width: 767px) {
+    .section__title {
+        margin-bottom: 20px;
+    }
+    .areas__title {
+        margin-bottom: 0;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .areas__link {
+        font-size: 20px;
+        line-height: 26px;
+        margin-right: 2px;
+    }
+    .areas__description {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .areas {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .areas__image-container_electric-shield {
+        background-size: cover;
+    }
+}
+@media (max-width: 480px) {
+
+}
+@media (max-width: 450px) {
+    .areas__image-container {
+        margin-bottom: 5px;
+    }
+    .areas__title {
+        margin-bottom: 4px;
+    }
+    .areas__description {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media (max-width: 360px) {
+
+}

@@ -1,0 +1,217 @@
+.objects-page {
+    background-color: var(--black);
+    padding: 40px 0 180px 0;
+}
+.objects-page__wrapper {
+
+}
+.objects-page__path {
+    margin-bottom: 60px;
+}
+.objects-page__title {
+    color: var(--yellow);
+    margin-bottom: 60px;
+}
+.objects-page__objects {
+
+}
+.objects {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.objects__item {
+    display: flex;
+    gap: 70px;
+}
+.objects__item:not(.objects__item:last-child) {
+    border-bottom: 1px solid var(--olive-light);
+    padding-bottom: 59px;
+}
+.objects__item_polus {
+    justify-content: space-between;
+    gap: 69px;
+}
+.objects__photo {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+}
+.objects__photo-wrapper {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.objects__photo-wrapper_small {
+    max-height: 280px;
+    min-width: 380px;
+}
+.objects__photo-wrapper_medium {
+    min-height: 450px;
+    min-width: 532px;
+}
+.objects__photo-wrapper_kuzbass-fuel-company,
+.objects__photo-wrapper_npc-polus,
+.objects__photo-wrapper_tomskneftekhim,
+.objects__photo-wrapper_tomsk-generation,
+.objects__photo-wrapper_tomsk-state-university,
+.objects__photo-wrapper_rosneft,
+.objects__photo-wrapper_tomsk-polytechnic-university,
+.objects__photo-wrapper_rusal {
+    background-position: center;
+}
+.objects__photo-wrapper_kuzbass-fuel-company {
+    background-image: url("/images/photos/VinogradovskySection.png");
+}
+.objects__photo-wrapper_npc-polus {
+    background-image: url("/images/photos/NPCPolus.png");
+}
+.objects__photo-wrapper_tomskneftekhim {
+    background-image: url("/images/photos/Tomskneftekhim.png");
+}
+.objects__photo-wrapper_tomsk-generation {
+    background-image: url("/images/photos/TomskGeneration.png");
+}
+.objects__photo-wrapper_tomsk-state-university {
+    background-image: url("/images/photos/TomskStateUniversity.png");
+}
+.objects__photo-wrapper_rosneft {
+    background-image: url("/images/photos/Rosneft.png");
+}
+.objects__photo-wrapper_tomsk-polytechnic-university {
+    background-image: url("/images/photos/TomskPolytechnicUniversity.png");
+}
+.objects__photo-wrapper_rusal {
+    background-image: url("/images/photos/Rusal.png");
+}
+.objects__description {
+    max-width: 578px;
+}
+.objects__description_polus {
+    max-width: 579px;
+}
+.objects__description_bigger {
+    max-width: 580px;
+}
+.objects__description_large {
+    max-width: 730px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+}
+.description__title {
+    color: var(--white);
+    margin-bottom: 8px;
+    font-size: 20px;
+    line-height: 26px;
+}
+.description__list {
+
+}
+.list {
+    list-style-position: inside;
+    list-style-type: disc;
+}
+.list__item {
+    display: grid;
+    grid-template-columns: 4px 1fr;
+    grid-gap: 20px;
+    gap: 13px;
+    padding-left: 12px;
+}
+.list__item:not(.list__item:last-child) {
+    margin-bottom: 22px;
+}
+.list__dot {
+    background-color: var(--light-gray);
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-top: 14px;
+}
+.list__text, .description__text {
+    color: var(--light-gray);
+    font-size: 20px;
+    line-height: 26px;
+}
+.description__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+@media (max-width: 968px) {
+    .objects-page {
+        padding: 40px 0 100px 0;
+    }
+    .objects-page__title {
+        display: none;
+    }
+    .objects-page__path {
+        margin-bottom: 40px;
+    }
+    .objects {
+        gap: 40px;
+    }
+    .objects__photo-wrapper_medium {
+        min-height: 450px;
+        min-width: 404px;
+    }
+    .list__item {
+        gap: 11px;
+    }
+    .objects__photo-wrapper_tomsk-polytechnic-university {
+        min-width: 278px;
+    }
+}
+@media (max-width: 967px) {
+    .objects__item {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .objects {
+        gap: 60px;
+    }
+    .objects__item:not(.objects__item:last-child) {
+        padding-bottom: 39px;
+    }
+    .objects__description {
+        max-width: 100%;
+    }
+    .objects__photo-wrapper {
+        min-height: 600px;
+        min-width: 100%;
+        max-height: unset;
+    }
+    .objects__photo-wrapper_npc-polus,
+    .objects__photo-wrapper_tomsk-state-university,
+    .objects__photo-wrapper_tomsk-polytechnic-university {
+        order: -1;
+    }
+    .objects__description_polus {
+        max-width: 454px;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 480px) {
+    .objects-page {
+        padding: 27px 0 60px 0;
+    }
+    .objects {
+        gap: 40px;
+    }
+    .objects-page__path {
+        margin-bottom: 20px;
+    }
+    .objects__item {
+        gap: 8px;
+    }
+    .objects__item:not(.objects__item:last-child) {
+        padding-bottom: 19px;
+    }
+}

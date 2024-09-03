@@ -1,0 +1,19 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: red;
+}
+.label__select {
+
+}
+.label__hint_red {
+    color: var(--red-error);
+}
+.label__hint_olive {
+    color: var(--olive);
+}
+.label__hint {
+    user-select: none;
+    margin-top: 8px;
+}

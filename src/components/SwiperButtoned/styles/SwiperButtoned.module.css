@@ -1,0 +1,33 @@
+.swiper-buttoned-wrapper {
+    position: relative;
+}
+.swiper-buttoned {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-buttoned__button {
+    position: absolute;
+    border: none;
+    background: none;
+    outline: none;
+    z-index: 2;
+}
+.swiper-buttoned__button-next-svg, .swiper-buttoned__button-prev-svg {
+    fill: var(--olive);
+}
+@media (hover: hover) {
+    .swiper-buttoned__button-next:hover .swiper-buttoned__button-next-svg,
+    .swiper-buttoned__button-prev:hover .swiper-buttoned__button-prev-svg {
+        fill: var(--olive-light);
+    }
+}
+.swiper-buttoned__button-next:focus .swiper-buttoned__button-next-svg,
+.swiper-buttoned__button-prev:focus .swiper-buttoned__button-prev-svg {
+    fill: var(--olive-light);
+}
+.swiper-buttoned__button-next:active .swiper-buttoned__button-next-svg,
+.swiper-buttoned__button-prev:active .swiper-buttoned__button-prev-svg {
+    fill: var(--dark-olive);
+}

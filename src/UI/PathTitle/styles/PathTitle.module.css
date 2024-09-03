@@ -1,0 +1,21 @@
+.path {
+    color: var(--light-gray);
+}
+.path__slash {
+    margin: 0 8px 0 8px;
+}
+.path__current {
+    color: var(--corn);
+}
+.path__link {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+.path__link:hover {
+    color: var(--corn);
+}
+.path__link:focus {
+    bottom: none;
+    outline: none;
+    color: var(--corn);
+}

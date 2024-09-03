@@ -1,0 +1,53 @@
+.label {
+    position: relative;
+}
+.label:not(.label:has(.label__input:disabled)){
+    cursor: pointer;
+}
+.label:has(.label__input:focus:not(.label__input[aria-invalid="true"])) .label__file-zone {
+    border: 1px solid var(--corn);
+    background-color: var(--corn);
+}
+.label:has(.label__input[aria-invalid="true"]) .label__file-zone {
+    border-color: var(--red-error);
+}
+.label:has(.label__input[aria-invalid="true"]) .label__placeholder {
+    color: var(--red-error);
+}
+.label__input {
+
+}
+.label__file-zone {
+    border: 1px dashed var(--corn);
+    overflow: hidden;
+    min-height: 46px;
+}
+.label__placeholder {
+    text-align: center;
+    padding: 8px 10px 10px 10px;
+    color: var(--olive);
+    user-select: none;
+}
+.label__hint {
+    margin-top: 8px;
+    color: var(--olive);
+    user-select: none;
+}
+.label:has(.label__input[aria-invalid="true"]) .label__hint {
+    color: var(--red-error);
+}
+.label:has(.label__input:disabled) .label__hint,
+.label:has(.label__input:disabled) .label__placeholder
+{
+    color: var(--olive);
+}
+.label:has(.label__input:disabled) .label__file-zone {
+    border: 1px solid var(--light-gray);
+    background-color: var(--light-gray);
+}
+@media (hover: hover) {
+    .label:hover:not(.label:hover:has(.label__input:disabled)):has(.label__input[aria-invalid="false"]) .label__file-zone {
+        border: 1px solid var(--corn);
+        background-color: var(--corn);
+    }
+}

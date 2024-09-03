@@ -1,0 +1,35 @@
+.section {
+    background-color: var(--black);
+}
+.section__wrapper {
+
+}
+.section__title {
+    text-align: center;
+    color: var(--yellow);
+    margin-bottom: 60px;
+    font-size: 60px;
+    line-height: 78px;
+}
+.section__stages {
+
+}
+
+.stages__480 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .section__title {
+        font-size: 48px;
+        line-height: 62px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .section__title {
+        font-size: 32px;
+        line-height: 41px;
+        margin-bottom: 20px;
+    }
+}

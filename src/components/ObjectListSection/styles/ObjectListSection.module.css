@@ -1,0 +1,129 @@
+.section {
+    background-color: var(--black);
+}
+.section__title {
+    color: var(--yellow);
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section__objects {
+    margin-bottom: 16px;
+}
+.objects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    color: var(--white);
+}
+.objects__item {
+    display: flex;
+    flex-direction: column;
+}
+.objects__image-wrapper {
+    margin-bottom: 20px;
+    min-height: 220px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+.objects__image {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transform: scale(0);
+    right: 0;
+    bottom: 0;
+}
+.objects__image-vinogradovsky-section, .objects__image-npc-polus, .objects__image-tomskneftekhim {
+    background-position: center;
+}
+.objects__image-vinogradovsky-section {
+    background-image: url("/images/photos/VinogradovskySection.png");
+}
+.objects__image-npc-polus {
+    background-image: url("/images/photos/NPCPolus.png");
+}
+.objects__image-tomskneftekhim {
+    background-image: url("/images/photos/Tomskneftekhim.png");
+}
+.objects__title {
+    margin-bottom: 8px;
+}
+.objects__description {
+    color: var(--light-gray);
+}
+.section__link-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+.section__link {
+
+}
+.link-arrow {
+    margin-top: 12px;
+}
+.separator {
+    display: flex;
+}
+
+@media (max-width: 1250px) {
+    .section__title {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 968px) {
+    .objects__image-vinogradovsky-section {
+        background-size: 107%;
+    }
+}
+@media (max-width: 967px) {
+    .objects__image-vinogradovsky-section {
+        background-size: 138%;
+    }
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 767px) {
+    .objects__item:not(.objects__item:first-child) {
+        display: none;
+    }
+    .section__title {
+        margin-bottom: 20px;
+    }
+    .objects__title {
+        text-transform: uppercase;
+    }
+    .objects {
+        grid-template-columns: 1fr;
+    }
+    .section__objects {
+        margin-bottom: 20px;
+    }
+    .objects__image-vinogradovsky-section {
+        background-size: cover;
+    }
+    .link-arrow {
+        width: 12px;
+        height: 12px;
+        margin-top: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .link-arrow {
+        margin-top: 6px;
+    }
+}
+@media (max-width: 360px) {
+    .section__objects {
+        margin-bottom: -11px;
+    }
+}
+@media (max-width: 325px) {
+    .section__objects {
+        margin-bottom: 8px;
+    }
+}

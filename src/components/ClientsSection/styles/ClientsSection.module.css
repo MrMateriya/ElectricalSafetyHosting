@@ -1,0 +1,214 @@
+.section {
+    background-color: var(--black);
+}
+.section__wrapper {
+
+}
+.section__title {
+    margin-bottom: 60px;
+    text-align: center;
+    color: var(--yellow);
+}
+.section__logos {
+
+}
+.logos {
+    display: grid;
+    align-items: center;
+    gap: 20px;
+}
+.logos__first {
+    grid-template-columns: 1fr 1fr 380px 1fr 1fr;
+    grid-template-rows: 82px;
+    margin-bottom: 20px;
+}
+.logos__second {
+    grid-template-columns: 380px 1fr 1fr 380px;
+    grid-template-rows: 82px;
+}
+.logos__nine {
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 82px);
+}
+.logos__item {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.logos__image {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.logos__background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    background-repeat: no-repeat;
+}
+.logos__sibur,
+.logos__vostok-gazprom,
+.logos__rosneft,
+.logos__interRAOUES,
+.logos__tomsk-polytechnic-university,
+.logos__gazprom-transgaz-tomsk,
+.logos__sibagro {
+    background-size: contain;
+    background-position: center;
+}
+.logos__kuzbass-fuel-company,
+.logos__gazprom-transgaz-tomsk,
+.logos__sibagro {
+    background-size: cover;
+    background-position: center;
+}
+.logos__sibur {
+    background-image: url("/images/photos/clientLogo/Sibur.png");
+}
+.logos__vostok-gazprom {
+    background-image: url("/images/photos/clientLogo/VostokGazprom.png");
+}
+.logos__rosneft {
+    background-image: url("/images/photos/clientLogo/Rosneft.png");
+}
+.logos__interRAOUES {
+    background-image: url("/images/photos/clientLogo/InterRAOUES.png");
+}
+.logos__tomsk-polytechnic-university {
+    background-image: url("/images/photos/clientLogo/TomskPolytechnicUniversity.png");
+}
+.logos__kuzbass-fuel-company {
+    background-image: url("/images/photos/clientLogo/KuzbassFuelCompany.png");
+}
+.logos__tomsk-state-university {
+    background-size: 200%;
+    background-position: center;
+    background-image: url("/images/photos/clientLogo/TomskStateUniversity.png");
+}
+.logos__gazprom-transgaz-tomsk {
+    background-image: url("/images/photos/clientLogo/GazpromTransgazTomsk.png");
+}
+.logos__sibagro {
+    background-image: url("/images/photos/clientLogo/Sibagro.png");
+}
+
+@media (max-width: 1250px) {
+    .section__title {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 1200px) {
+    .logos {
+        gap: 12px;
+    }
+    .logos__first {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 82px;
+        margin-bottom: 20px;
+    }
+    .logos__second {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .logos__gazprom-transgaz-tomsk {
+        background-size: contain;
+    }
+    .logos__tomsk-state-university {
+        background-size: 150%;
+        background-position: center;
+        background-image: url("/images/photos/clientLogo/TomskStateUniversity.png");
+    }
+}
+@media (max-width: 968px) {
+    .logos__gazprom-transgaz-tomsk {
+        background-size: cover;
+    }
+}
+@media (max-width: 967px) {
+    .logos__kuzbass-fuel-company {
+        background-size: 100%;
+    }
+}
+@media (max-width: 890px) {
+    .logos__first, .logos__second {
+        display: none;
+    }
+    .logos__nine {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 82px);
+    }
+    .logos {
+        gap: 20px 20.5px;
+    }
+    .logos__kuzbass-fuel-company {
+        background-size: cover;
+    }
+    .logos__gazprom-transgaz-tomsk {
+        background-size: contain;
+    }
+}
+@media (max-width: 768px) {
+    .logos__gazprom-transgaz-tomsk {
+        background-size: cover;
+    }
+}
+@media (max-width: 767px) {
+    .section__title {
+        margin-bottom: 20px;
+    }
+    .logos__nine {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 82px);
+    }
+    .logos {
+        gap: 8px;
+    }
+    .logos__item:last-child {
+        display: none;
+    }
+    .logos__tomsk-polytechnic-university,
+    .logos__kuzbass-fuel-company
+    {
+        background-size: 90%;
+    }
+    .logos__tomsk-state-university {
+        background-size: 120%;
+    }
+    .logos__gazprom-transgaz-tomsk {
+        background-size: 60%;
+    }
+}
+@media (max-width: 650px) {
+    .logos__tomsk-state-university {
+        background-size: 140%;
+    }
+}
+@media (max-width: 550px) {
+    .logos__tomsk-state-university {
+        background-size: 170%;
+    }
+}
+@media (max-width: 480px) {
+    .logos__kuzbass-fuel-company,
+    .logos__gazprom-transgaz-tomsk
+    {
+        background-size: contain;
+    }
+    .logos__tomsk-state-university {
+        background-size: 170%;
+    }
+    .logos__tomsk-polytechnic-university {
+        background-size: contain;
+    }
+}
+@media (max-width: 400px) {
+    .logos__tomsk-state-university {
+        background-size: 200%;
+    }
+}

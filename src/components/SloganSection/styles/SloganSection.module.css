@@ -1,0 +1,20 @@
+.slogan {
+    text-align: center;
+    white-space: nowrap;
+}
+
+@media (max-width: 670px) {
+    .slogan {
+        white-space: normal;
+    }
+}
+@media (max-width: 480px) {
+    .slogan {
+        white-space: nowrap;
+    }
+}
+@media (max-width: 359px) {
+    .slogan {
+        white-space: normal;
+    }
+}

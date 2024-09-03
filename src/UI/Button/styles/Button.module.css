@@ -1,0 +1,38 @@
+.button {
+    border: 3px solid var(--corn);
+    outline: none;
+    user-select: none;
+    font-family: 'Exo2', sans-serif;
+    white-space: nowrap;
+}
+.button:not(:disabled) {
+    cursor: pointer;
+}
+.button_fill {
+    color: var(--black);
+    border: none;
+    background-color: var(--yellow);
+}
+.button_fill:active, .button_fill:focus {
+    background-color: var(--corn);
+}
+.button_outline {
+    color: var(--white);
+    border: 3px solid var(--corn);
+    background-color: #00000000;
+}
+.button_outline:active {
+    color: var(--black);
+    border: none;
+    background-color: var(--corn);
+}
+@media (hover: hover) {
+    .button_fill:hover {
+        background-color: var(--corn);
+    }
+    .button_outline:hover {
+        color: var(--black);
+        border: none;
+        background-color: var(--corn);
+    }
+}

@@ -1,0 +1,410 @@
+.PowerSupplyPage {
+
+}
+.PowerSupplyPage__introduction {
+    padding: 40px 0 126px 0;
+}
+.introduction {
+    background-color: var(--black);
+}
+.introduction__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.introduction__path-title {
+    margin-bottom: 60px;
+}
+.introduction__main-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+}
+.introduction__description {
+    gap: 20px;
+}
+.description__photo-wrapper {
+    min-width: 486px;
+    min-height: 736px;
+}
+.description__content {
+    max-width: 680px;
+}
+.description__text-first {
+
+}
+.description__list {
+
+}
+.description__text-first,
+.description__list {
+    max-width: 580px;
+}
+.description__area-title {
+
+}
+.description__area-title_dash {
+    display: none;
+}
+.description__text_yellow {
+    color: var(--yellow);
+}
+.PowerSupplyPage__advantages {
+    padding-bottom: 100px;
+}
+.advantages {
+    background-color: var(--black);
+}
+.advantages__wrapper {
+
+}
+.advantages__title {
+    text-align: center;
+    margin-bottom: 60px;
+    color: var(--yellow);
+    font-size: 60px;
+    line-height: 78px;
+}
+.advantages__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.advantages__card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+    list-style-type: none;
+}
+.advantages__card-list_968 {
+    display: none;
+}
+.advantages__card-list_middle {
+    margin: 0 50px 0 50px;
+    grid-template-columns: 0.8276fr 1fr;
+}
+.advantages__card-list-item {
+    border: 3px solid var(--white);
+    padding: 17px 17px 19px 17px;
+    color: var(--light-gray);
+}
+.advantages__card-list-wrapper {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.advantages__card-list-description {
+    display: none;
+}
+.advantages__card-list-icon {
+    width: 40px;
+    height: 40px;
+    fill: var(--corn);
+}
+.advantages__card-list-icon-wrapper {
+    width: 40px;
+    height: 40px;
+}
+.advantages__card-list-title {
+
+}
+.PowerSupplyPage__work-stages {
+    padding-bottom: 120px;
+}
+.swiper__image-wrapper_tomsk-generation {
+    background-image: url("/images/photos/TomskGeneration.png");
+    background-position: 0 -10px;
+}
+.swiper__image-wrapper_rosneft {
+    background-image: url("/images/photos/Rosneft.png");
+    background-position: 0 -35px;
+}
+.swiper__image-wrapper_rusal {
+    background-image: url("/images/photos/Rusal.png");
+    background-position: 0 -18px;
+}
+.swiper__image-wrapper_vinogradovsky-section {
+    background-image: url("/images/photos/VinogradovskySection.png");
+    background-position: 0 -22px;
+}
+.PowerSupplyPage__implemented-objects {
+    padding: 100px 0 70px 0;
+}
+.implemented-objects {
+
+}
+.implemented-objects__title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.implemented-objects__objects-list {
+    margin-bottom: 105px;
+}
+.objects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    list-style: none;
+    gap: 20px;
+}
+.objects-list__item {
+    display: flex;
+    flex-direction: column;
+}
+.objects-list__photo-wrapper {
+    width: 100%;
+    min-height: 220px;
+    margin-bottom: 20px;
+    position: relative;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.objects-list__photo {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transform: scale(0);
+    right: 0;
+    bottom: 0;
+}
+.objects-list__photo_rusal {
+    background-image: url("/images/photos/Rusal.png");
+}
+.objects-list__photo_tomskneftekhim {
+    background-image: url("/images/photos/Tomskneftekhim.png");
+}
+.objects-list__title {
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.objects-list__description-list {
+
+}
+.description-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    list-style-position: inside;
+}
+.description-list__item {
+    display: grid;
+    grid-template-columns: 4px auto;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+    column-gap: 8px;
+    padding-left: 10px;
+}
+.description-list__item::marker {
+    display: none;
+}
+.description-list__dot {
+    background-color: var(--black);
+    display: block;
+    width: 3px;
+    height: 3px;
+    min-width: 3px;
+    min-height: 3px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.description-list__text {
+
+}
+.implemented-objects__link-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.implemented-objects__link-arrow {
+    margin-top: 11px;
+}
+.PowerSupplyPage__submit-request {
+    padding: 100px 0 108px 0;
+}
+.PowerSupplyPage__submit-request_reduced {
+    display: none;
+}
+
+@media (max-width: 1150px) {
+    .PowerSupplyPage__introduction {
+        padding: 40px 0 88px 0;
+    }
+    .introduction__description {
+        gap: unset;
+    }
+    .description__photo-wrapper {
+        min-height: 600px;
+        margin-bottom: 20px;
+    }
+    .introduction__path-title {
+        margin-bottom: 40px;
+    }
+    .description__text-first,
+    .description__list {
+        max-width: 700px;
+    }
+    .description__content {
+        max-width: 100%;
+    }
+    .advantages__title {
+        margin-bottom: 40px;
+    }
+    .advantages__card-list {
+        display: none;
+    }
+    .advantages__card-list_968 {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .advantages__card-list-item {
+        flex: 1;
+        min-width: 40%;
+        padding: 10px;
+    }
+    .advantages__card-list-item:nth-child(5) {
+        min-width: 75.432%;
+        flex: 0;
+        margin: auto;
+    }
+    .PowerSupplyPage__advantages {
+        padding-bottom: 60px;
+    }
+    .PowerSupplyPage__submit-request {
+        display: none;
+    }
+    .PowerSupplyPage__submit-request_reduced {
+        display: flex;
+        padding: 60px 0 122px 0;
+    }
+    .objects-list {
+        grid-template-columns: 1fr 2.0675fr;
+    }
+}
+@media (max-width: 968px) {
+    .PowerSupplyPage__work-stages {
+        padding-bottom: 60px;
+    }
+    .PowerSupplyPage__implemented-objects {
+        padding: 60px 0;
+    }
+    .implemented-objects__title {
+        margin-bottom: 40px;
+    }
+    .implemented-objects__objects-list {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .description__text-first,
+    .description__list {
+        max-width: 100%;
+    }
+    .advantages__card-list-item:nth-child(5) {
+        min-width: 100%;
+    }
+    .objects-list {
+        grid-template-columns: 1fr 2.1326fr;
+    }
+}
+@media (max-width: 767px) {
+    .advantages__title {
+        margin-bottom: 20px;
+        font-size: 48px;
+        line-height: 62px;
+    }
+    .objects-list {
+        gap: 40px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);
+        margin-bottom: 50px;
+    }
+}
+@media (max-width: 570px) {
+    .description__title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+@media (max-width: 660px) {
+    .advantages__card-list_968 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        gap: 12px;
+    }
+}
+@media (max-width: 480px) {
+    .PowerSupplyPage__introduction {
+        padding: 27px 0 62px 0;
+    }
+    .PowerSupplyPage__advantages {
+        padding-bottom: 30px;
+    }
+    .PowerSupplyPage__work-stages {
+        padding-bottom: 40px;
+    }
+    .introduction__path-title {
+        margin-bottom: 20px;
+    }
+    .advantages__card-list-item {
+        border: 3px solid var(--white);
+        padding: 10px 5px 10px 10px;
+    }
+    .advantages__card-list-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .advantages__card-list-icon-wrapper {
+        width: 20px;
+        height: 20px;
+    }
+    .advantages__card-list-wrapper {
+        gap: 8px;
+    }
+    .advantages__title {
+        font-size: 32px;
+        line-height: 41px;
+    }
+    .PowerSupplyPage__implemented-objects {
+        padding: 40px 0;
+    }
+    .implemented-objects__title {
+        margin-bottom: 20px;
+    }
+    .objects-list__photo-wrapper {
+        margin-bottom: 8px;
+    }
+    .implemented-objects__link-arrow {
+        margin-top: 8px;
+    }
+    .PowerSupplyPage__submit-request_reduced {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 380px) {
+    .description__area-title {
+        display: none;
+    }
+    .description__area-title_dash {
+        display: unset;
+    }
+}
+@media (max-width: 360px) {
+    .PowerSupplyPage__introduction {
+        padding: 27px 0 24px 0;
+    }
+    .PowerSupplyPage__advantages {
+        padding-bottom: 10px;
+    }
+    .PowerSupplyPage__submit-request_reduced {
+        padding: 40px 0 109px 0;
+    }
+}

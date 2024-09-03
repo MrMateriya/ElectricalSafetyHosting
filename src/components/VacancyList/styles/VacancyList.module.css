@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.list__item {
+
+}
+
+@media (max-width: 968px) {
+    .list {
+        gap: 60px;
+    }
+}
+@media (max-width: 480px) {
+    .list {
+        gap: 40px;
+    }
+}

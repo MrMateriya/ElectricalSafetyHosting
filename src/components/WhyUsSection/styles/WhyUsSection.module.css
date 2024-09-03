@@ -1,0 +1,113 @@
+.section {
+
+}
+.section__title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.section__card-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+}
+.card-list__item {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--black);
+    padding: 17px 17px 19px 17px;
+}
+.card-list__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41.6px;
+}
+.card-list__description {
+    color: var(--dark-olive);
+}
+.card-list__icon {
+    fill: var(--corn);
+}
+.card-list__icon-wrapper {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+}
+.card-list__list-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+@media (max-width: 1250px) {
+    .section__card-list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+@media (max-width: 968px) {
+    .section__title {
+        margin-bottom: 40px;
+    }
+    .section__card-list {
+        grid-template-rows: 224px 292px 250px;
+    }
+}
+@media (max-width: 967px) {
+    .section__card-list {
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .section__card-list {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+    }
+    .card-list__list-wrapper {
+        align-items: center;
+    }
+}
+@media (max-width: 630px) {
+    .card-list__item {
+        border: 3px solid var(--black);
+        padding: 10px 10px 12px 10px;
+    }
+    .section__title {
+        margin-bottom: 20px;
+    }
+    .card-list__icon {
+        width: 60px;
+        height: 60px;
+    }
+    .card-list__list-wrapper {
+        margin-bottom: 8px;
+    }
+    .card-list__icon-wrapper {
+        margin-right: 8px;
+        width: 60px;
+        height: 60px;
+    }
+}
+@media (max-width: 480px) {
+    .card-list__item {
+        border: 2px solid var(--black);
+    }
+    .card-list__title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .section__card-list {
+        gap: 8px;
+    }
+    .card-list__icon {
+        width: 40px;
+        height: 40px;
+    }
+    .card-list__icon-wrapper {
+        margin-right: 8px;
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 360px) {
+
+}

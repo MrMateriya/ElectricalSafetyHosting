@@ -1,0 +1,42 @@
+.label {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.label__checkmark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    border: 1px solid var(--yellow);
+}
+.label__checkmark:has(.label__input:focus:not(.label__input:checked)) {
+    border-color: var(--corn);
+}
+.label__checkmark:has(.label__input:checked) {
+    background-color: var(--yellow);
+}
+.label__checkmark:has(.label__input:checked) .label__svg {
+    display: flex;
+}
+.label__svg {
+    display: none;
+}
+.label__input {
+    position: absolute;
+    opacity: 0;
+    cursor: none;
+    pointer-events: none;
+    height: 0;
+    width: 0;
+}
+
+@media (hover: hover) {
+    .label:hover:has(.label__input:not(.label__input:checked)) .label__checkmark {
+        border-color: var(--corn);
+    }
+}

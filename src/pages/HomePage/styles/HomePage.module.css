@@ -1,0 +1,94 @@
+.home-page {
+
+}
+.electra-security {
+
+}
+.slogan {
+    margin: 48px auto;
+}
+.work-area {
+    padding: 100px 0;
+}
+.about-us {
+    padding-bottom: 100px;
+}
+.why-us {
+    margin: 100px auto 120px auto;
+}
+.object-list {
+    padding: 100px 0;
+}
+.clients {
+    padding-bottom: 120px;
+}
+.documents {
+    /*display: none;*/
+    padding: 100px 0 120px 0;
+}
+.submit-request {
+    padding: 100px 0 120px 0;
+}
+
+@media (max-width: 1250px) {
+    .slogan {
+        margin: 10px auto;
+    }
+    .work-area {
+        padding: 60px 0;
+    }
+    .about-us {
+        padding-bottom: 60px;
+    }
+    .why-us {
+        margin: 60px auto;
+    }
+    .object-list {
+        padding: 60px 0;
+    }
+    .clients {
+        padding-bottom: 60px;
+    }
+    .documents {
+        padding: 60px 0;
+    }
+    .submit-request {
+        padding: 60px 0;
+    }
+}
+@media (max-width: 968px) {
+
+}
+@media (max-width: 767px) {
+    .work-area {
+        padding: 40px 0;
+    }
+    .about-us {
+        padding-bottom: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .slogan {
+        margin: 10px auto;
+    }
+    .why-us {
+        margin: 40px auto;
+    }
+    .object-list {
+        padding: 41px 0;
+    }
+    .clients {
+        padding-bottom: 40px;
+    }
+    .documents {
+        padding: 40px 0;
+    }
+    .submit-request {
+        padding: 40px 0;
+    }
+}
+@media (max-width: 360px) {
+    .work-area {
+        padding: 40px 0 41px 0;
+    }
+}

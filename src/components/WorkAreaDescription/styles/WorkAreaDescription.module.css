@@ -1,0 +1,136 @@
+.description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.description__title {
+    color: var(--yellow);
+    margin-bottom: 40px;
+    display: none;
+}
+.description__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.description__path-title {
+    margin-bottom: 60px;
+}
+.description__photo-wrapper {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.description__photo-wrapper_968 {
+    display: none;
+}
+.description__photo-wrapper_barbed-wire {
+    background-image: url("/images/photos/BarbedWire.jfif");
+}
+.description__photo-wrapper_electric-shield {
+    background-image: url("/images/photos/ElectricShield.png");
+}
+.description__photo-wrapper_valve {
+    background-image: url("/images/photos/Valve.jfif");
+}
+.description__photo {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transform: scale(0);
+    right: 0;
+    bottom: 0;
+}
+.description__content {
+
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    color: var(--light-gray);
+}
+.content__title {
+    color: var(--yellow);
+    margin-bottom: 40px;
+}
+.content__text-first {
+    color: var(--white);
+    margin-bottom: 40px;
+}
+.content__list-title {
+    margin-bottom: 16px;
+}
+.content__list {
+    margin-bottom: 40px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style-type: none;
+}
+.list__item:before {
+    content: ' ';
+
+    display: flex;
+    background-image: url("/images/icons/YellowArrowItem.svg");
+    background-size: cover;
+    background-position: center;
+    min-width: 16px;
+    min-height: 16px;
+    margin-right: 8px;
+}
+.list__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.content__text-second {
+
+}
+.content__text_yellow {
+    color: var(--yellow);
+}
+
+@media (max-width: 1150px) {
+    .content__title,
+    .description__photo-wrapper {
+        display: none;
+    }
+    .description__photo-wrapper_968,
+    .description__title {
+        display: flex;
+    }
+    .description__photo-wrapper_968 {
+        width: 100%;
+        min-width: unset;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+    }
+    .description__path-title {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 480px) {
+    .description__path-title {
+        margin-bottom: 20px;
+    }
+    .description__title {
+        margin-bottom: 20px;
+    }
+    .description__photo-wrapper {
+        min-width: 100%;
+        min-height: 400px;
+    }
+    .content__text-first {
+        margin-bottom: 20px;
+    }
+    .content__list {
+        margin-bottom: 20px;
+    }
+    .list__item:before {
+        margin-right: 4px;
+    }
+}

@@ -1,0 +1,59 @@
+.vacancies-page {
+    padding: 40px 0 140px 0;
+    background-color: var(--black);
+}
+.vacancies-page__path-title {
+    margin-bottom: 60px;
+}
+.vacancies-page__title {
+    color: var(--yellow);
+    margin-bottom: 40px;
+}
+.vacancies-page__list {
+    margin-bottom: 120px;
+}
+
+@media (max-width: 968px) {
+    .vacancies-page {
+        padding-bottom: 60px;
+    }
+    .vacancies-page__path-title {
+        margin-bottom: 40px;
+    }
+    .vacancies-page__list {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .vacancies-page__title {
+        margin-bottom: 60px;
+    }
+    .vacancies-page__list {
+        margin-bottom: 108px;
+    }
+}
+@media (max-width: 480px) {
+    .vacancies-page {
+        padding: 20px 0 40px 0;
+    }
+    .vacancies-page__title {
+        margin-bottom: 20px;
+    }
+    .vacancies-page__path-title {
+        margin-bottom: 27px;
+    }
+    .vacancies-page__list {
+        margin-bottom: 76px;
+    }
+}
+@media (max-width: 360px) {
+    .vacancies-page {
+        padding: 20px 0 43px 0;
+    }
+    .vacancies-page__title {
+        margin-bottom: 58px;
+    }
+    .vacancies-page__list {
+        margin-bottom: 40px;
+    }
+}

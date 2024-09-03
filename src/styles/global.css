@@ -1,0 +1,248 @@
+:root {
+    --yellow: #FAE82E;
+    --light-gray: #E1E1DC;
+    --black: #0F0F00;
+    --full-black: #000000;
+    --white: #FFFFFF;
+    --dark-olive: #191900;
+    --olive-light: #5F5F46;
+    --olive: #555546;
+    --corn: #FFFF9C;
+    --red-error: #D8454E;
+    --blue: #3252FE;
+    --light-blue: #7187ff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url("/fonts/Arimo/Arimo-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url("/fonts/Exo2/Exo2-VariableFont_wght.ttf");
+}
+
+.container {
+    margin: 0 auto;
+    width: 1180px;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    color: var(--black);
+    font-family: 'Exo2', sans-serif;
+    overflow: hidden;
+}
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.font-body {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.font-body-big {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 41.6px;
+}
+.font-body-bold {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+.font-body-small {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+}
+.font-body-mobile {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+}
+.font-headline-first {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 104px;
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+}
+.font-headline-second {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+}
+.font-headline-third {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-family: 'Arimo', sans-serif;
+    text-transform: uppercase;
+}
+.separator_1920,
+.separator_968,
+.separator_768,
+.separator_480,
+.separator_360
+{
+    display: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+@media (max-width: 1920px) {
+    .separator_1920 {
+        display: unset;
+    }
+    .separator_1920_invisible {
+        display: none;
+    }
+}
+@media (max-width: 1250px) {
+    .separator_1920 {
+        display: none;
+    }
+
+    .container {
+        width: 95%;
+    }
+    .font-body-big {
+        font-size: 24px;
+        line-height: 31.2px;
+    }
+    .font-headline-first {
+        font-size: 56px;
+        line-height: 72.8px;
+    }
+    .font-headline-second {
+        font-size: 48px;
+        line-height: 62.4px;
+    }
+    .font-headline-third {
+        font-size: 32px;
+        line-height: 41.6px;
+    }
+}
+@media (max-width: 968px) {
+    .container {
+        width: 928px;
+    }
+    .separator {
+        display: none;
+    }
+    .separator_968 {
+        display: unset;
+    }
+    .separator_968_invisible {
+        display: none;
+    }
+}
+@media (max-width: 967px) {
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 920px) {
+    .font-headline-first {
+        font-size: 44px;
+        line-height: 57.2px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 728px;
+    }
+    .separator_768 {
+        display: unset;
+    }
+    .separator_768_invisible {
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 95%;
+    }
+    .separator_768 {
+        display: none;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        width: 440px;
+    }
+    .separator_480 {
+        display: unset;
+    }
+    .separator_480_invisible {
+        display: none;
+    }
+
+    .font-body {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .font-body-big {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .font-body-bold {
+        font-size: 15px;
+        line-height: 19px;
+    }
+    .font-headline-first {
+        font-size: 36px;
+        line-height: 47px;
+    }
+    .font-headline-second {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .font-headline-third {
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+@media (max-width: 479px) {
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 360px) {
+    .container {
+        width: 320px;
+    }
+    .separator_360 {
+        display: flex;
+    }
+    .separator_360_invisible {
+        display: none;
+    }
+}
+@media (max-width: 359px) {
+    .container {
+        width: 95%;
+    }
+}
