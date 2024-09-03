@@ -182,7 +182,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #39393980;
+    background-color: var(--shadow-black);
 }
 .modal:focus {
     outline: none;

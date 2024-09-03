@@ -523,7 +523,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
 
     async function handleSubmitCallOrder(data) {
         try {
-            await fetch('./api/orderCall', {
+            await fetch('https://mrmateriya.github.io/ElectricalSafetyHosting/api/orderCall', {
                 headers: {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json'
@@ -557,7 +557,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
             formData.append('profession', data.profession.value)
             formData.append('file', data.file[0])
 
-            await fetch('./api/vacancyRespond', {
+            await fetch('https://mrmateriya.github.io/ElectricalSafetyHosting/api/vacancyRespond', {
                 method: "POST",
                 body: formData,
             })
@@ -589,13 +589,13 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
             </section>
             <Dialog open={isShowPopap}
                     className={[styles['section__modal'], styles['modal']].join(' ')}
-                    onClick={() => {
+                    onPointerDown={() => {
                         setIsShowPopap(false)
                     }}
                     onClose={() => {
                         setIsShowPopap(false)
                     }}>
-                <div className={[styles['modal__content'], styles['content']].join(' ')}>
+                <div onPointerDown={(e) => e.stopPropagation()} className={[styles['modal__content'], styles['content']].join(' ')}>
                     <svg onKeyDown={e => {
                         handleTabSelection(e, () => setIsShowPopap(false), e)
                     }}

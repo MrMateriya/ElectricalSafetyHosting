@@ -21,12 +21,22 @@
     border: 1px dashed var(--corn);
     overflow: hidden;
     min-height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 .label__placeholder {
     text-align: center;
-    padding: 8px 10px 10px 10px;
+
     color: var(--olive);
     user-select: none;
+    position: absolute;
+    padding: 8px 10px 10px 10px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .label__hint {
     margin-top: 8px;

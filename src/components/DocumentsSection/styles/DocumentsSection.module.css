@@ -49,7 +49,6 @@
     user-select: none;
 }
 .swiper__image:focus {
-    /*filter: brightness(0.8);*/
     outline: none;
 }
 .section__modal {
@@ -64,10 +63,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #39393980;
+    background-color: var(--shadow-black);
 }
 .modal:focus {
-    /*background-color: red;*/
     outline: none;
 }
 .modal__button-next {

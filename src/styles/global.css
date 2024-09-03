@@ -11,6 +11,7 @@
     --red-error: #D8454E;
     --blue: #3252FE;
     --light-blue: #7187ff;
+    --shadow-black: #39393980;
 }
 * {
     margin: 0;
@@ -20,12 +21,10 @@
 
 @font-face {
     font-family: 'Arimo';
-    /*src: url("/fonts/Arimo/Arimo-VariableFont_wght.ttf");*/
     src: url("https://mrmateriya.github.io/ElectricalSafetyHosting/fonts/Arimo/Arimo-VariableFont_wght.ttf");
 }
 @font-face {
     font-family: 'Exo2';
-    /*src: url("/fonts/Exo2/Exo2-VariableFont_wght.ttf");*/
     src: url("https://mrmateriya.github.io/ElectricalSafetyHosting/fonts/Exo2/Exo2-VariableFont_wght.ttf");
 }
 

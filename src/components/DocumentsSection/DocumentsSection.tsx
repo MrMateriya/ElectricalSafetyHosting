@@ -61,9 +61,9 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                     onPointerDown={() => {setIsShowPopap(false);}}
                     onClose={() => {setIsShowPopap(false)}}>
                 <SwiperButtoned swiperOptions={{
-                    slidesPerView: 1,
-                    initialSlide: slide,
-                }}
+                                    slidesPerView: 1,
+                                    initialSlide: slide,
+                                }}
                                 onPointerDown={(e) => {
                                     e.stopPropagation()
                                 }}
