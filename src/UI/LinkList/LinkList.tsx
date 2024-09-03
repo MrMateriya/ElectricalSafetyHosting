@@ -14,6 +14,8 @@ function LinkList({classNames, links, onClick, ...props}: LinkListProps) {
     function handleClickAnchor(e, link) {
         if (link.page != path) {
             e.preventDefault()
+            console.log(path)
+            console.log(link.page)
             router.push(link.page + link.href)
         }
     }
