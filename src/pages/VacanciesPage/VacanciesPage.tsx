@@ -155,7 +155,7 @@ function VacanciesPage() {
     ]
     const paths = [
         {
-            href: 'https://mrmateriya.github.io/ElectricalSafetyHosting',
+            href: 'https://mrmateriya.github.io/ElectricalSafetyHosting/',
             title: 'Главная',
         }
     ]
