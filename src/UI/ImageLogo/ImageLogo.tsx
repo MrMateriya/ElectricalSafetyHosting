@@ -5,7 +5,7 @@ import Link from "next/link";
 import {ImageLogoProps} from "@/UI/ImageLogo/types/ImageLogoProps.mjs";
 function ImageLogo({className, ...props} : ImageLogoProps) {
     return (
-        <Link href='./' className={[styles['logo'], className].join(' ')} {...props}>
+        <Link href='https://mrmateriya.github.io/ElectricalSafetyHosting/' className={[styles['logo'], className].join(' ')} {...props}>
             <svg className={styles['header__logo-image']} width="184" height="48" viewBox="0 0 184 48" fill="none" xmlns="http://www.w3.org/2000/svg"
                  xmlnsXlink="http://www.w3.org/1999/xlink">
                 <rect width="184" height="48" fill="url(#pattern0_257_126)"/>
