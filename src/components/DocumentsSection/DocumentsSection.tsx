@@ -112,6 +112,16 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                             height={1754}
                         />
                     </SwiperSlide>
+                    <SwiperSlide className={styles['modal-swiper__slide']}>
+                        <Image
+                            draggable={false}
+                            className={styles['modal-swiper__image']}
+                            src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/ThankYouNoteKTK.jpg'}
+                            alt={'ThankYouNoteKTK.jpg'}
+                            width={2481}
+                            height={3508}
+                        />
+                    </SwiperSlide>
                 </SwiperButtoned>
             </Dialog>
             <section className={[styles['section'], className].join(' ')} {...props}>
@@ -179,6 +189,20 @@ function DocumentsSection({className, ...props} : DocumentsSectionProps) {
                                 alt={'SROProjectStatement.jfif'}
                                 width={1241}
                                 height={1754}
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide className={styles['swiper__slide']}>
+                            <Image
+                                tabIndex={0}
+                                draggable={false}
+                                data-slider-number={4}
+                                onKeyDown={handleKeyDownShowPopap}
+                                onClick={handleClickShowPopap}
+                                className={styles['swiper__image']}
+                                src={'https://mrmateriya.github.io/ElectricalSafetyHosting/images/photos/documents/ThankYouNoteKTK.jpg'}
+                                alt={'ThankYouNoteKTK.jpg'}
+                                width={2481}
+                                height={3508}
                             />
                         </SwiperSlide>
                     </SwiperButtoned>
