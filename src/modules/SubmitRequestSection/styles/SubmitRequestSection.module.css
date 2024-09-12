@@ -134,14 +134,20 @@
     align-items: flex-end;
 }
 .personal-data__checkmark {
-
+    cursor: pointer;
 }
 .personal-data__text {
     user-select: none;
     color: var(--light-gray);
 }
-.personal-data__span {
+.personal-data__link {
     color: var(--blue);
+    text-decoration: none;
+}
+.personal-data__link:active, .personal-data__link:focus {
+    outline: none;
+
+    color: var(--light-blue);
 }
 .form__button-wrapper {
     display: flex;
@@ -225,6 +231,9 @@
 
 @media (hover: hover) {
     .section__mail-link:hover {
+        color: var(--light-blue);
+    }
+    .personal-data__link:hover {
         color: var(--light-blue);
     }
 }

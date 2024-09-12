@@ -150,9 +150,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
                                        checkMark: styles['personal-data__checkmark'],
                                    }}>
                             <p className={[styles['personal-data__text'], errors['personalData']?.message ? styles['personal-data__text_invalid'] : ''].join(' ')}>
-                                Согласие на обработку
-                                <span className={styles['personal-data__span']}
-                                      dangerouslySetInnerHTML={{__html: ' персональных данных'}}></span>
+                                Согласие на обработку <a href="/files/PersonalDataProcessingPolicy.docx" download className={styles['personal-data__link']}>персональных данных</a>
                             </p>
                         </Checkmark>
                     )}
@@ -305,9 +303,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
                                        checkMark: styles['personal-data__checkmark'],
                                    }}>
                             <p className={[styles['personal-data__text'], errors['personalData']?.message ? styles['personal-data__text_invalid'] : ''].join(' ')}>
-                                Согласие на обработку
-                                <span className={styles['personal-data__span']}
-                                      dangerouslySetInnerHTML={{__html: ' персональных данных'}}></span>
+                                Согласие на обработку <a href="/files/PersonalDataProcessingPolicy.docx" download className={styles['personal-data__link']}>персональных данных</a>
                             </p>
                         </Checkmark>
                     )}
@@ -502,9 +498,7 @@ function SubmitRequestSection({textVariant = 'call-order-reduced', className, ..
                                            checkMark: styles['personal-data__checkmark'],
                                        }}>
                                 <p className={[styles['personal-data__text'], styles['personal-data__text_vacancy-respond'], errors['personalData']?.message ? styles['personal-data__text_invalid'] : ''].join(' ')}>
-                                    Согласие на обработку
-                                    <span className={styles['personal-data__span']}
-                                          dangerouslySetInnerHTML={{__html: ' персональных данных'}}></span>
+                                    Согласие на обработку <a href="/files/PersonalDataProcessingPolicy.docx" download className={styles['personal-data__link']}>персональных данных</a>
                                 </p>
                             </Checkmark>
                         )}
